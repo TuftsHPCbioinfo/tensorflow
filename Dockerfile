@@ -1,5 +1,5 @@
 # Use the specified base image
-FROM nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu20.04
+FROM tensorflow/tensorflow:2.15.0-jupyter
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt

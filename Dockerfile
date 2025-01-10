@@ -1,5 +1,5 @@
 # Use the specified base image
-FROM tensorflow/tensorflow:2.15.0-jupyter
+FROM tensorflow/tensorflow:2.15.0-gpu-jupyter
 
 COPY requirements.txt .
 RUN python3 -m pip install --upgrade pip

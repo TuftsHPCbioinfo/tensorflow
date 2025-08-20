@@ -1,3 +1,4 @@
+tensorflow[and-cuda]
 altair
 pyarrow
 geopandas

@@ -1,5 +1,5 @@
 # Use the specified base image
-FROM tensorflow/tensorflow:2.15.0-gpu-jupyter
+FROM tuftsttsrt/miniforge-cuda
 
 COPY requirements.txt .
 RUN python3 -m pip install --upgrade pip
